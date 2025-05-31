@@ -13,7 +13,7 @@ import Footer from './Pages/Footer/Footer'
 function App() {
 
   return (
-    <div className='w-full min-h-screen flex-col max-xs:w-full space-y-4 bg-[#F1FAEE] gap-5 flex justify-center items-center'>
+    <div className='w-full h-auto min-h-screen flex-col max-xs:w-full space-y-4 bg-[#F1FAEE] gap-5 flex justify-center items-center'>
      <Home/>
      <About/>
      <Academic/>

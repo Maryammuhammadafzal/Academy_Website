@@ -7,7 +7,7 @@ import Button from "../../Components/Button/Button";
 const Home = () => {
   return (
     <div className="w-full h-auto gap-5 flex flex-col justify-center items-center p-3 ">
-      <div className="navbar w-[90%] h-[150px] max-[1350px]:w-[100%]  flex justify-center items-center ">
+      <div className="navbar xl:w-[90%] h-[150px] w-full flex justify-center items-center ">
         <Navbar />
       </div>
       <div className="hero w-[90%] max-[1350px]:w-[100%] h-auto flex justify-center items-center ">

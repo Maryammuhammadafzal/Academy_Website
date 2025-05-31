@@ -1,7 +1,8 @@
 import React from "react";
 import Heading from "../../Components/Heading/Heading";
 import FeatureImage1 from "../../assets/images/feature_image1.jpg";
-import Stars from "../../assets/images/shine.png"
+import FeatureImage2 from "../../assets/images/feature_image2.jpg";
+import Stars from "../../assets/images/shine.png";
 const Features = () => {
   return (
     <div className="w-full h-auto gap-5 flex justify-center items-center p-3">
@@ -9,10 +10,14 @@ const Features = () => {
         <div className="headings leading-[6rem] w-[100%] mt-3">
           <Heading text="Students Life" />
         </div>
-        <div className="academyContent w-full h-auto flex flex-wrap justify-between mb-3">
-          <div className="w-auto h-auto flex gap-3 items-start">
-            <div className="image flex flex-col gap-2 w-auto h-auto" >
-              <img src={FeatureImage1} alt="feature-image" className="w-[300px] h-[460px] rounded-lg" />
+        <div className="academyContent w-full h-auto flex flex-wrap justify-between mb-3 relative">
+          <div className="w-auto h-auto flex gap-5 items-start">
+            <div className="image flex flex-col gap-2 w-auto h-auto">
+              <img
+                src={FeatureImage1}
+                alt="feature-image"
+                className="w-[300px] h-[460px] rounded-lg"
+              />
               <div className=" text-yellow-500 text-3xl w-full ">
                 <span className="w-full flex justify-end">
                   <img
@@ -23,8 +28,60 @@ const Features = () => {
                 </span>
               </div>
             </div>
-            <div className="carddiv w-auto h-auto">
-<div className="card flex rounded-lg"></div>
+            <div className="carddiv w-auto h-auto ml-20">
+              <div className="card flex flex-col rounded-lg w-[615px] h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+                <h4 className="text-xl font-[Staatliches]">
+                  Extracurricular Activities
+                </h4>
+                <p className="text-[1.2rem] max-sm:text-[1rem] font-[Nunito Sans] font-[400]">
+                  At <span className="font-[500]">BrightPath Academy</span>, we
+                  believe in learning beyond books. We offer:.
+                </p>
+                <ul className="flex flex-col  list-disc px-3">
+                  <li>Music & Dance Classes</li>
+                  <li>Art & Craft Workshops Public</li>
+                  <li>Speaking & Debates</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="w-auto h-auto flex gap-8 items-start absolute top-50 left-85">
+            <div className="image flex w-auto h-auto">
+              <img
+                src={FeatureImage2}
+                alt="feature-image"
+                className="w-[270px] h-[390px] rounded-lg"
+              />
+            </div>
+            <div className="carddiv w-auto h-auto flex flex-col gap-5">
+              <div className="card flex flex-col rounded-lg w-[615px] h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+                <h4 className="text-xl font-[Staatliches]">
+                  Extracurricular Activities
+                </h4>
+                <p className="text-[1.2rem] max-sm:text-[1rem] font-[Nunito Sans] font-[400]">
+                  At <span className="font-[500]">BrightPath Academy</span>, we
+                  believe in learning beyond books. We offer:.
+                </p>
+                <ul className="flex flex-col  list-disc px-3">
+                  <li>Music & Dance Classes</li>
+                  <li>Art & Craft Workshops Public</li>
+                  <li>Speaking & Debates</li>
+                </ul>
+              </div>
+              <div className="card flex flex-col rounded-lg w-[615px] h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+                <h4 className="text-xl font-[Staatliches]">
+                  Extracurricular Activities
+                </h4>
+                <p className="text-[1.2rem] max-sm:text-[1rem] font-[Nunito Sans] font-[400]">
+                  At <span className="font-[500]">BrightPath Academy</span>, we
+                  believe in learning beyond books. We offer:.
+                </p>
+                <ul className="flex flex-col  list-disc px-3">
+                  <li>Music & Dance Classes</li>
+                  <li>Art & Craft Workshops Public</li>
+                  <li>Speaking & Debates</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
