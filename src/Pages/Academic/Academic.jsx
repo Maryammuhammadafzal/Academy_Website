@@ -13,7 +13,7 @@ const Academic = () => {
           <Heading text="Academics" />
         </div>
         <div className="academyContent w-full h-auto flex flex-col flex-wrap justify-between mb-3">
-          <div className="left w-[60%] max-xl:w-full h-auto gap-5 space-y-5 p-3 flex max-lg:flex-col items-center justify-between">
+          <div className="left w-full h-auto gap-5 space-y-5 p-3 flex max-lg:flex-col items-center justify-between">
             <div className="px-3 py-3 w-[100%] max-xs:px-1 h-auto ">
             <SubHeading text="Curriculum"/>
               <p className="text-2xl  max-xs:text-[.8rem] max-[1050px]:text-[1.2rem] my-6 font-[Nunito Sans] text-black font-[400]">
@@ -60,7 +60,7 @@ const Academic = () => {
           className="w-full h-[50%] rounded-2xl"
         />
           </div>
-          <div className="right w-[60%] max-xl:w-full h-auto gap-5 space-y-5 p-3 flex max-lg:flex-col items-center justify-between">
+          <div className="right w-full h-auto gap-5 space-y-5 p-3 flex max-lg:flex-col items-center justify-between">
          
 
 <div className="px-3 py-3 w-[100%] h-auto ">

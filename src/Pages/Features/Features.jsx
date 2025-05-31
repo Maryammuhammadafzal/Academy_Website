@@ -54,7 +54,7 @@ const Features = () => {
               />
             </div>
             <div className="carddiv w-auto h-auto flex flex-col gap-5">
-              <div className="card flex flex-col rounded-lg w-[615px] max-lg:w-[450px]  max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+              <div className="card flex flex-col rounded-lg w-[615px] max-xl:w-[450px] max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
@@ -68,7 +68,7 @@ const Features = () => {
                   <li>Speaking & Debates</li>
                 </ul>
               </div>
-              <div className="card flex flex-col rounded-lg w-[615px] max-lg:w-[450px]  max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+              <div className="card flex flex-col rounded-lg w-[615px] max-xl:w-[450px] max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
