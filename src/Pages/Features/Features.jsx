@@ -10,26 +10,26 @@ const Features = () => {
         <div className="headings leading-[6rem] w-[100%] mt-3">
           <Heading text="Students Life" />
         </div>
-        <div className="academyContent w-full h-auto flex flex-wrap justify-between mb-3 relative">
-          <div className="w-auto h-auto flex gap-5 items-start">
+        <div className="academyContent w-full h-auto flex max-md:gap-5 flex-wrap max-md:flex-col justify-between mb-3 md:relative">
+          <div className="w-auto h-auto flex max-md:flex-col gap-5 items-start">
             <div className="image flex flex-col gap-2 w-auto h-auto">
               <img
                 src={FeatureImage1}
                 alt="feature-image"
-                className="w-[300px] h-[460px] rounded-lg"
+                className="w-[300px] max-sm:w-[full] max-sm:h-[390px]  h-[460px] rounded-lg"
               />
-              <div className=" text-yellow-500 text-3xl w-full ">
+              <div className=" max-sm:hidden text-yellow-500 text-3xl w-full ">
                 <span className="w-full flex justify-end">
                   <img
                     src={Stars} // Use your image path
                     alt="Shining Stars"
-                    className=" max-xs:w-[90px] w-[140px] h-auto rounded-2xl"
+                    className=" max-xs:w-[90px] w-[140px]  h-auto rounded-2xl"
                   />
                 </span>
               </div>
             </div>
-            <div className="carddiv w-auto h-auto ml-20">
-              <div className="card flex flex-col rounded-lg w-[615px] h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+            <div className="carddiv w-auto h-auto max-sm:ml-0 ml-20">
+              <div className="card flex flex-col rounded-lg w-[615px] max-sm:w-[300px] max-sm:h-auto max-sm:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
@@ -45,16 +45,16 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="w-auto h-auto flex gap-8 items-start absolute top-50 left-85">
-            <div className="image flex w-auto h-auto">
+          <div className="w-auto h-auto flex gap-8 items-start max-md:flex-col md:absolute md:top-50 md:left-85">
+            <div className="image flex max-md:flex-col w-auto h-auto">
               <img
                 src={FeatureImage2}
                 alt="feature-image"
-                className="w-[270px] h-[390px] rounded-lg"
+                className="w-[270px] max-sm:w-full h-[390px] rounded-lg"
               />
             </div>
             <div className="carddiv w-auto h-auto flex flex-col gap-5">
-              <div className="card flex flex-col rounded-lg w-[615px] h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+              <div className="card flex flex-col rounded-lg w-[615px] max-sm:w-[300px] max-sm:h-auto max-sm:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
@@ -68,7 +68,7 @@ const Features = () => {
                   <li>Speaking & Debates</li>
                 </ul>
               </div>
-              <div className="card flex flex-col rounded-lg w-[615px] h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+              <div className="card flex flex-col rounded-lg w-[615px] max-sm:w-[300px] max-sm:h-auto max-sm:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
