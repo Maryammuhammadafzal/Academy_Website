@@ -30,7 +30,7 @@ const TeamCard = () => {
             /></span>
             
           </div>
-          <div className="absolute -bottom-5 left-12">
+          <div className="absolute -bottom-5 left-12 md:-bottom-8 lg:left-15">
           <SubHeading text="Ms. Emily Johnson "/>
           <p className='text-center '>Mathematics Specialist</p>
           </div>

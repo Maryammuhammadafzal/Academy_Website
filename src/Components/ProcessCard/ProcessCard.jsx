@@ -4,7 +4,7 @@ import RightArrow from "../../assets/images/right_arrow.png"
 
 const ProcessCard = () => {
   return (
-    <div className='w-[400px] max-sm:w-[300px]  max-xs:h-[250px]  max-xs:w-[250px] max-sm:h-[300px] p-3 h-[300px] max-md:h-auto max-md:p-6 rounded-2xl bg-[#2D6A4F] justify-center items-center text-white flex flex-col gap-4 '>
+    <div className='w-[400px] max-sm:w-[300px]  max-xs:h-[250px] md:w-[350px]   max-xs:w-[250px] max-sm:h-[300px] p-3 h-[300px] max-md:h-auto max-md:p-6 rounded-2xl bg-[#2D6A4F] justify-center items-center text-white flex flex-col gap-4 '>
       <img
                 src={Process_Image1} // Use your image path
                 alt="Process Image"

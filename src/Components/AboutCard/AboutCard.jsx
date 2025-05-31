@@ -11,7 +11,7 @@ const AboutCard = () => {
       {/* Image Wrapper */}
       <div className="px-8 py-3  max-xs:px-3 z-10 w-[90%]  max-md:h-[280px] h-[320px] flex flex-col gap-5 justify-center border-t-14 border-r-14 border-[#F1FAEE] bg-white rounded-2xl shadow-lg">
         <SubHeading text="Our Story" />
-        <p className="text-2xl  max-xs:text-[.7rem]    max-sm:text-[1rem] max-md:text-[.9rem] max-[1050px]:text-[1.2rem] my-3 font-[Nunito Sans] text-black font-[400]">
+        <p className="text-2xl  max-xs:text-[.7rem]    max-sm:text-[1rem] max-md:text-[.9rem] max-[1050px]:text-[1.2rem] font-[Nunito Sans] text-black font-[400]">
           Established in <span className="font-[500]">2021, BrightPath Academy</span> has been dedicated to academic
           excellence and character building. Our experienced faculty and
           innovative curriculum ensure a holistic learning experience.

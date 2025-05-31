@@ -10,7 +10,7 @@ const Features = () => {
         <div className="headings leading-[6rem] w-[100%] mt-3">
           <Heading text="Students Life" />
         </div>
-        <div className="academyContent w-full h-auto flex max-md:gap-5 flex-wrap max-md:flex-col justify-between mb-3 md:relative">
+        <div className="academyContent w-full h-auto flex max-md:gap-5 flex-wrap max-lg:flex-col justify-between mb-3 lg:relative">
           <div className="w-auto h-auto flex max-md:flex-col gap-5 items-start">
             <div className="image flex flex-col gap-2 w-auto h-auto">
               <img
@@ -28,8 +28,8 @@ const Features = () => {
                 </span>
               </div>
             </div>
-            <div className="carddiv w-auto h-auto max-sm:ml-0 ml-20">
-              <div className="card flex flex-col rounded-lg w-[615px] max-sm:w-[300px] max-sm:h-auto max-sm:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+            <div className="carddiv w-auto h-auto max-sm:ml-0 ml-20 max-lg:ml-4">
+              <div className="card flex flex-col rounded-lg w-[615px] max-lg:w-[450px]  max-sm:w-[300px] max-lg:h-auto max-lg:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
@@ -45,7 +45,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="w-auto h-auto flex gap-8 items-start max-md:flex-col md:absolute md:top-50 md:left-85">
+          <div className="w-auto h-auto flex gap-8 items-start max-md:flex-col lg:absolute lg:top-50 lg:left-85">
             <div className="image flex max-md:flex-col w-auto h-auto">
               <img
                 src={FeatureImage2}
@@ -54,7 +54,7 @@ const Features = () => {
               />
             </div>
             <div className="carddiv w-auto h-auto flex flex-col gap-5">
-              <div className="card flex flex-col rounded-lg w-[615px] max-sm:w-[300px] max-sm:h-auto max-sm:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+              <div className="card flex flex-col rounded-lg w-[615px] max-lg:w-[450px]  max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>
@@ -68,7 +68,7 @@ const Features = () => {
                   <li>Speaking & Debates</li>
                 </ul>
               </div>
-              <div className="card flex flex-col rounded-lg w-[615px] max-sm:w-[300px] max-sm:h-auto max-sm:gap-4  h-[180px] p-3 bg-white border-l-[16px] border-green-800">
+              <div className="card flex flex-col rounded-lg w-[615px] max-lg:w-[450px]  max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
                   Extracurricular Activities
                 </h4>

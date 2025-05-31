@@ -9,7 +9,7 @@ const Process = () => {
           <div className="headings leading-[6rem] w-[100%] mt-3">
             <Heading text="Admission" />
           </div>
-          <div className="academyContent w-full max-sm:justify-center max-sm:gap-4 h-auto flex flex-wrap justify-between mb-3">
+          <div className="academyContent w-full max-xl:justify-center max-sm:gap-4 gap-3 h-auto flex flex-wrap justify-between mb-3">
                 <ProcessCard/>
                 <ProcessCard/>
                 <ProcessCard/>
