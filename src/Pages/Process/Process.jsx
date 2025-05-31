@@ -10,10 +10,10 @@ const Process = () => {
             <Heading text="Admission" />
           </div>
           <div className="academyContent w-full max-xl:justify-center max-sm:gap-4 gap-3 h-auto flex flex-wrap justify-between mb-3">
-                <ProcessCard/>
-                <ProcessCard/>
-                <ProcessCard/>
-                <ProcessCard/>
+                <ProcessCard text="Admission Process"/>
+                <ProcessCard text="Eligibility Criteria"/>
+                <ProcessCard text="Fee Structure"/>
+                <ProcessCard text="Important Dates"/>
           </div>
           </div>
     </div>

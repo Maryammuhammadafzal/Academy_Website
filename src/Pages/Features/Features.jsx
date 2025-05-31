@@ -56,30 +56,28 @@ const Features = () => {
             <div className="carddiv w-auto h-auto flex flex-col gap-5">
               <div className="card flex flex-col rounded-lg w-[615px] max-xl:w-[450px] max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
-                  Extracurricular Activities
+                  Sports & Events
                 </h4>
                 <p className="text-[1.2rem] max-sm:text-[1rem] font-[Nunito Sans] font-[400]">
-                  At <span className="font-[500]">BrightPath Academy</span>, we
-                  believe in learning beyond books. We offer:.
+                  Encouraging teamwork and fitness through:
                 </p>
                 <ul className="flex flex-col  list-disc px-3">
-                  <li>Music & Dance Classes</li>
-                  <li>Art & Craft Workshops Public</li>
-                  <li>Speaking & Debates</li>
+                  <li>Football, Basketball, and Cricket Teams</li>
+                  <li>Annual Sports Meet</li>
+                  <li>Inter-School Competitions</li>
                 </ul>
               </div>
               <div className="card flex flex-col rounded-lg w-[615px] max-xl:w-[450px] max-sm:w-[300px] max-lg:h-auto max-lg:gap-4 h-[180px] p-3 bg-white border-l-[16px] border-green-800">
                 <h4 className="text-xl font-[Staatliches]">
-                  Extracurricular Activities
+                  Clubs & Societies
                 </h4>
                 <p className="text-[1.2rem] max-sm:text-[1rem] font-[Nunito Sans] font-[400]">
-                  At <span className="font-[500]">BrightPath Academy</span>, we
-                  believe in learning beyond books. We offer:.
+                  Join our clubs to enhance leadership and skills:
                 </p>
                 <ul className="flex flex-col  list-disc px-3">
-                  <li>Music & Dance Classes</li>
-                  <li>Art & Craft Workshops Public</li>
-                  <li>Speaking & Debates</li>
+                  <li>Science Club</li>
+                  <li>Drama & Theatre Club</li>
+                  <li>Environmental Club</li>
                 </ul>
               </div>
             </div>
