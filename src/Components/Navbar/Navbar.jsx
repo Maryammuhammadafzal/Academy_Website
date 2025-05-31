@@ -6,13 +6,13 @@ const Navbar = () => {
       {/* Left Tabs */}
       <div className="right w-1/3 h-[150px] max-md:hidden flex justify-center items-end">
         <ul className="list-none w-full h-auto flex justify-between items-end">
-          <li className="w-auto h-auto font-semibold  text-[1.5rem] max-[1100px]:text-[1.3rem max-[900px]:px-1 max-[1000px]:text-[1rem]  px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
+          <li className="w-auto h-auto font-semibold  text-2xl max-[1100px]:text-xl max-[900px]:px-1 max-[1000px]:text-[1rem]  px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
             Home
           </li>
-          <li className="w-auto h-auto font-semibold text-[1.5rem] max-[1100px]:text-[1.3rem] max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
+          <li className="w-auto h-auto font-semibold text-2xl max-[1100px]:text-xl max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
             About Us
           </li>
-          <li className="w-auto h-auto font-semibold text-[1.5rem] max-[1100px]:text-[1.3rem] max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
+          <li className="w-auto h-auto font-semibold text-2xl max-[1100px]:text-xl max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
             Academic
           </li>
         </ul>
@@ -26,13 +26,13 @@ const Navbar = () => {
       {/* Right Tabs */}
       <div className="left w-1/3 h-[150px] max-md:hidden flex justify-center items-end ">
         <ul className="list-none w-full h-auto flex justify-between items-center">
-          <li className="w-auto h-auto font-semibold text-[1.5rem] max-[1100px]:text-[1.3rem] max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
+          <li className="w-auto h-auto font-semibold text-2xl max-[1100px]:text-xl max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
             Admissions
           </li>
-          <li className="w-auto h-auto font-semibold text-[1.5rem] max-[1100px]:text-[1.3rem] max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
+          <li className="w-auto h-auto font-semibold text-2xl max-[1100px]:text-xl max-[900px]:px-1 max-[1000px]:text-[1rem] px-3 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
             Blogs
           </li>
-          <li className="w-auto h-auto font-semibold text-[1.4rem] max-[1100px]:text-[1.2rem] max-[900px]:px-1 max-[1000px]:text-[.9rem] px-2 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
+          <li className="w-auto h-auto font-semibold text-[22px] max-[1100px]:text-[19px] max-[900px]:px-1 max-[1000px]:text-[.9rem] px-2 text-black text-center hover:text-green-800 focus:text-green-800 cursor-pointer">
             Contact Us
           </li>
         </ul>

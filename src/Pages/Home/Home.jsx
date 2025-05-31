@@ -7,10 +7,10 @@ import Button from "../../Components/Button/Button";
 const Home = () => {
   return (
     <div className="w-full h-auto gap-5 flex flex-col justify-center items-center p-3 ">
-      <div className="navbar xl:w-[90%] h-[150px] w-full flex justify-center items-center ">
+      <div className="navbar xl:w-[90%] h-auto w-full flex justify-center items-center ">
         <Navbar />
       </div>
-      <div className="hero w-[90%] max-[1350px]:w-[100%] h-auto flex justify-center items-center ">
+      <div className="hero w-[90%] max-[1350px]:w-full h-auto flex justify-center items-center">
         <div className="main w-full h-auto flex max-md:flex-col max-md:my-3 justify-center items-center">
           <div className="left w-[55%] max-md:w-[90%] max-sm:w-[98%] h-auto gap-5  max-xs:gap-0 max-sm:gap-2 space-y-5 flex flex-col items-center justify-between">
            <div className="headings leading-[4.2rem] max-xs:leading-[2rem] max-sm:leading-[3.2rem] max-[800px]:leading-[3.5rem] w-full ">
